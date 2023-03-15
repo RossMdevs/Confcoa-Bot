@@ -46,7 +46,7 @@ class Error(commands.Cog):
               ctx,
               'error',
               'slash_migration_problems',
-              invite=f'https://discord.com/oauth2/authorize?client_id={self.bot.user.id}&scope=bot%20applications.commands&permissions=0'
+              invite=f'https://discord.com/oauth2/authorize?client_id=1085406902185361448&scope=bot%20applications.commands&permissions=0'
             )
           )
           try:

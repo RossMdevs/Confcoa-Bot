@@ -902,7 +902,7 @@ class Confessions(commands.Cog):
 		**kwargs
 	):
 		"""
-		Send an anonymous message to this channel
+		Send a confession to this channel. Abuse of this will result in a bot ban.
 
 		Parameters
 		----------

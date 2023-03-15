@@ -1,7 +1,5 @@
 """
-	MerelyBot Framework
-	Adds modularity, translation support, and a config system to Python Discord bots
-	Created by Yiays and contributors
+CIBF
 """
 
 import sys, time, os
@@ -19,9 +17,8 @@ class MerelyBot(commands.AutoShardedBot):
 
 	def __init__(self, **kwargs):
 		print(f"""
-		merely framework{' beta' if self.config.getboolean('main', 'beta') else ''} v{self.config['main']['ver']}
-		currently named {self.config['main']['botname']} by config, uses {self.config['main']['prefix_short']}
-		created by Yiays#5930. https://github.com/yiays/merelybot
+		Bot: {self.config['main']['botname']} by RLM Services, uses {self.config['main']['prefix_short']}
+     EXECUTED With No Problems.
 		""")
 
 		#stdout to file
